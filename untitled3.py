@@ -1,4 +1,5 @@
-import streamlit as st 
+import streamlit as st
+import os 
 bi = st.button("HELLO")
 if bi == True:
     st.image("IMG_1314.gif")
@@ -29,3 +30,9 @@ if te == "TAIL":
     st.image("IMG_2257.jpg")
 if te == "LICK":
     st.image("IMG_1314.jpg")
+image_path = "IMG_0728.jpg"
+
+if os.path.exists(image_path):
+    st.image(image_path)
+else:
+    st.error(f"图片文件未找到：{image_path}")
