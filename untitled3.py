@@ -28,4 +28,4 @@ if te == "FOOD":
 if te == "TAIL":
     st.image("IMG_2257.jpg")
 if te == "LICK":
-    st.image("IMG_1314.GIF")
+    st.image("IMG_1314.gif")
