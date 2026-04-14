@@ -29,3 +29,11 @@ if te == "TAIL":
     st.image("IMG_2257.jpg")
 if te == "LICK":
     st.image("IMG_1314.gif")
+
+
+
+
+
+bu = st.button("HENTAI FEET")
+if bu==True:
+    st.image("image.feet.jpg")
